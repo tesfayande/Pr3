@@ -9,6 +9,17 @@ Run the following command to clone the repository:
 2.  Navigate to the cloned repository directory:
     `cd Pr3`
 
+
+## Config Databse
+
+1 Open: src/main/resources/application.properties
+### Use existed one or create/update/create-update
+      spring.jpa.hibernate.ddl-auto=update  
+      spring.datasource.url=jdbc:mysql://localhost:3306/Pr3?createDatabaseIfNotExist=true   
+      spring.datasource.username=
+      spring.datasource.password=
+      spring.datasource.driverClassName=com.mysql.cj.jdbc.Driver
+
 ## Compile, Build & Run
 
 Before you compile and build, make sure you are at the project directory SpringBootProjectDir of this repo. Take note also, I'm using Maven build tool here.
