@@ -5,3 +5,27 @@
 Run the following command to clone the repository:
 
     git clone  https://github.com/tesfayande/Pr3.git
+
+2.  Navigate to the cloned repository directory:
+    `cd Pr3`
+
+## Compile, Build & Run
+
+Before you compile and build, make sure you are at the project directory SpringBootProjectDir of this repo. Take note also, I'm using Maven build tool here.
+
+to package your program as an executable jar file:
+
+    mvn clean package
+
+to simply clean and compile:
+
+    mvn clean compile
+to just clean your project:
+
+    mvn clean
+to run the program:
+
+    mvn spring-boot:run
+to build and run the program:
+
+    mvn clean install
