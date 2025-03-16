@@ -1,0 +1,1 @@
+package com.Project3.Backend.Repositories;import com.Project3.Backend.Models.User;import org.springframework.data.jpa.repository.JpaRepository;import org.springframework.stereotype.Repository;@Repositorypublic interface UserRepository extends JpaRepository<User,Integer> {    User findByName(String Name);    User findByEmail(String Email);}

@@ -1,0 +1,1 @@
+package com.Project3.Backend.Repositories;import com.Project3.Backend.Models.Rental;import org.springframework.data.jpa.repository.JpaRepository;import org.springframework.stereotype.Repository;@Repositorypublic interface RentalRepository extends JpaRepository<Rental,Integer> {}

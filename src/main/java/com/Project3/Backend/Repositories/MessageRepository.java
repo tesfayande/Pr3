@@ -1,0 +1,1 @@
+package com.Project3.Backend.Repositories;import com.Project3.Backend.Models.Message;import org.springframework.data.jpa.repository.JpaRepository;import org.springframework.stereotype.Repository;@Repositorypublic interface MessageRepository extends JpaRepository<Message,Integer> {}
