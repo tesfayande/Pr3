@@ -1,18 +1,7 @@
-Quick setup — if you’ve done this kind of thing before
-or	
-https://github.com/tesfayande/Project3.git
-Get started by creating a new file or uploading an existing file. We recommend every repository include a README, LICENSE, and .gitignore.
+## Installation
 
-### or create a new repository on the command line
-echo "# Project3" >> README.md
-git init
-git add README.md
-git commit -m "Initial commit"
-git branch -M main
-git remote add origin https://github.com/tesfayande/Project3.git
-git push -u origin main
+1. Open a terminal or command prompt and navigate to the directory where you want to clone the repository.
 
-### or push an existing repository from the command line
-git remote add origin https://github.com/tesfayande/Project3.git
-git branch -M main
-git push -u origin main
+Run the following command to clone the repository:
+
+    git clone  https://github.com/tesfayande/Pr3.git
